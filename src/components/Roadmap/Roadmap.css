@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.roadmap {
+}
+
+.roadmap .section-1 {
+  padding-top: 96px;
+}
+
+.roadmap .section-1,
+.roadmap .section-3,
+.roadmap .section-5 {
+  background: #f6f6f6;
+}
+
+.color-1 {
+  background: #8a50ff !important;
+}
+
+.color-2 {
+  background: #2793fe !important;
+}
+
+.color-3 {
+  background: #11c987 !important;
+}
+
+.color-4 {
+  background: #ffff00 !important;
+}
+
+.color-5 {
+  background: #ff9900 !important;
+}
+
+.color-6 {
+  background: #ff5253 !important;
+}
+
+.pixels {
+  margin: 0 auto;
+  height: 768px;
+  width: 786px;
+}
+
+.pixels .pixels-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.pixels .pixel {
+  width: 256px;
+  height: 256px;
+  background: black;
+  border: 1px solid #f6f6f6;
+      transition: transform 0.2s ease-in-out;
+}
+
+.pixel img {
+  width: 256px;
+  height: 256px;
+}
+.target {
+  height: 256px;
+}
+
+.palettes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.palette {
+  width: 260px;
+  height: 333px;
+  border: 1px solid #dcdcdc;
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.palette .name {
+  text-align: center;
+  padding: 24px;
+  font-family: "Press Start 2P", cursive;
+  font-size:12px;
+}
+
+.section-left .palette:nth-child(1),
+.section-left .palette:nth-child(3) {
+  margin-left: 128px;
+}
+
+.section-right .palette:nth-child(1),
+.section-right .palette:nth-child(3) {
+  margin-right: 128px;
+}
+
+.section-container img {
+  max-width: 1024px;
+}
+
+.palette .name {
+  height: 64px;
+  border-top: 1px solid #eeeeee;
+}
+.palette-1 {
+  filter: drop-shadow(0px 4px 40px rgba(0, 0, 0, 0.1));
+}
+
+.palette-2 {
+  filter: blur(20px);
+}
+
+.palette-3 {
+  filter: blur(10px);
+}
+
+.palette-4 {
+  filter: blur(20px);
+}
+
+.palette-5 {
+  filter: drop-shadow(0px 4px 40px rgba(0, 0, 0, 0.1));
+}
+
+.palette-6 {
+  filter: blur(10px);
+}
+
+.mint {
+  width: 800px;
+  height: 171px;
+  background: white;
+  margin: 0 auto;
+  margin-top: 64px;
+}
+
+.mixer {
+  width: 590px;
+  height: 645px;
+  border-radius: 10px;
+  filter: drop-shadow(20px 40px 60px rgba(0, 0, 0, 0.1));
+}
+
+.roadmap .contact {
+  padding-top: 64px;
+  margin: 0 auto;
+}
+
+.section .section-subtitle {
+  margin-top: 64px;
+  font-size: 14px;
+  font-family: "Press Start 2P", cursive;
+}
+
+.section .section-count {
+  margin-top: 32px;
+  font-size: 32px;
+  font-family: "Press Start 2P", cursive;
+}
+
+.calculator {
+  width: 512px;
+  height: 430px;
+  text-align: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* .center {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+} */
+
+.box {
+  border-radius: 5px;
+  border: 1px black dotted;
+  cursor: pointer;
+}
+
+.box1 {
+  position: relative;
+  bottom: -142px;
+  right: -43px;
+  width: 124px;
+  height: 56px;
+}
+
+.box2 {
+  position: relative;
+  bottom: -86px;
+  right: -206px;
+  width: 124px;
+  height: 56px;
+}
+
+.box3 {
+  position: relative;
+  bottom: -135px;
+  right: -50px;
+  width: 270px;
+  height: 57px;
+}

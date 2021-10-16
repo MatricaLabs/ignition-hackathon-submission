@@ -1,0 +1,50 @@
+.header {
+  width: 100%;
+  background: #f6f6f6;
+  padding: 32px 32px 32px 32px;
+  box-sizing: border-box;
+}
+
+.header.header-dark {
+  background: #010101;
+}
+
+.header-dark a {
+  color: #f6f6f6;
+}
+
+.header-container {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header .header-title {
+  font-size: 28px;
+}
+
+.header .header-title img {
+  height: 32px;
+  margin-right: 16px;
+}
+.header .header-nav {
+  font-size: 21px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header .nav-item {
+  margin-left: 50px;
+}
+
+.header .social-icon {
+  height: 24px;
+}
+
+.pixel2 {
+  width: 512px;
+}

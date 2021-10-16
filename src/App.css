@@ -1,0 +1,68 @@
+a {
+  color: #010101;
+  text-decoration: none;
+}
+
+.section .section-description {
+  font-size: 24px;
+  padding: 32px 0px 0px 0px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.section .section-title {
+  font-size: 28px;
+  padding: 32px 0px 0px 0p;
+  max-width: 600px;
+  margin: 0 auto;
+  font-weight: bold;
+  font-family: "Press Start 2P", cursive;
+}
+
+.section .section-action {
+  padding: 32px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 128px 32px;
+}
+
+.section .section-container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.section-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+}
+
+.section .section-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section .section-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.section .section-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.section .section-center {
+  text-align: center;
+}

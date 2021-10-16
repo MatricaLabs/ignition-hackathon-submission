@@ -1,0 +1,198 @@
+{
+    "pixelSize": {
+        "128": {
+            "totalMints": 887
+        },
+        "64": {
+            "totalMints": 673
+        },
+        "32": {
+            "totalMints": 218
+        },
+        "16": {
+            "totalMints": 91
+        },
+        "8": {
+            "totalMints": 9
+        }
+    },
+    "pixelBorder": {
+        "0": {
+            "totalMints": 594
+        },
+        "1": {
+            "totalMints": 535
+        },
+        "0.5": {
+            "totalMints": 320
+        },
+        "2": {
+            "totalMints": 535
+        },
+        "0.25": {
+            "totalMints": 129
+        },
+        "0.125": {
+            "totalMints": 58
+        },
+        "16": {
+            "totalMints": 44
+        },
+        "8": {
+            "totalMints": 17
+        },
+        "4": {
+            "totalMints": 9
+        },
+        "32": {
+            "totalMints": 5
+        },
+        "0.0625": {
+            "totalMints": 2
+        }
+    },
+    "pixelShadow": {
+        "0": {
+            "totalMints": 771
+        },
+        "4": {
+            "totalMints": 557
+        },
+        "8": {
+            "totalMints": 380
+        },
+        "16": {
+            "totalMints": 143
+        },
+        "32": {
+            "totalMints": 27
+        }
+    },
+    "spiralPixelSize": {
+        "0.0625": {
+            "totalMints": 1101
+        },
+        "0.03125": {
+            "totalMints": 100
+        },
+        "0.015625": {
+            "totalMints": 17
+        }
+    },
+    "spiralPixelBorder": {
+        "0": {
+            "totalMints": 386
+        },
+        "0.0078125": {
+            "totalMints": 482
+        },
+        "0.015625": {
+            "totalMints": 257
+        },
+        "0.125": {
+            "totalMints": 93
+        }
+    },
+    "spiralSpeed": {
+        "0.88": {
+            "totalMints": 586
+        },
+        "1": {
+            "totalMints": 379
+        },
+        "1.61803398875": {
+            "totalMints": 253
+        }
+    },
+    "tunnelDivisor": {
+        "*": {
+            "totalMints": 860
+        },
+        "1.5": {
+            "totalMints": 358
+        }
+    },
+    "tunnelPixelBorder": {
+        "0": {
+            "totalMints": 577
+        },
+        "0.00390625": {
+            "totalMints": 400
+        },
+        "0.0078125": {
+            "totalMints": 241
+        }
+    },
+    "tunnelPixelShadow": {
+        "0": {
+            "totalMints": 583
+        },
+        "32": {
+            "totalMints": 379
+        },
+        "16": {
+            "totalMints": 256
+        }
+    },
+    "mandlebrotOffset": {
+        "-0.548": {
+            "totalMints": 11
+        },
+        "-0.6275": {
+            "totalMints": 5
+        },
+        "-0.59": {
+            "totalMints": 5
+        },
+        "-0.56": {
+            "totalMints": 4
+        },
+        "-0.5478": {
+            "totalMints": 4
+        },
+        "-0.55": {
+            "totalMints": 4
+        },
+        "-0.6": {
+            "totalMints": 2
+        },
+        "-0.58": {
+            "totalMints": 2
+        },
+        "-0.5475": {
+            "totalMints": 1
+        }
+    },
+    "mandelbrotZoom": {
+        "0.038": {
+            "totalMints": 9
+        },
+        "0.1": {
+            "totalMints": 5
+        },
+        "0.0004": {
+            "totalMints": 4
+        },
+        "0.02": {
+            "totalMints": 4
+        },
+        "0.004": {
+            "totalMints": 4
+        },
+        "0.04": {
+            "totalMints": 3
+        },
+        "0.06": {
+            "totalMints": 3
+        },
+        "0.0006": {
+            "totalMints": 3
+        },
+        "0.08": {
+            "totalMints": 2
+        },
+        "0.0003": {
+            "totalMints": 1
+        }
+    }
+}
