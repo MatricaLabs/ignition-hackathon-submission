@@ -82,7 +82,9 @@ const Art = (props) => {
               </p>
             </div>
             <div className="section-action">
-              <button className="btn btn-dark">Read the Litepaper</button>
+              <a href="/litepaper.pdf" target="_blank">
+                <button className="btn btn-dark">Read the Litepaper</button>
+              </a>
             </div>
           </div>
 

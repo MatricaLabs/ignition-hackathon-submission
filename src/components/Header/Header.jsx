@@ -2,20 +2,7 @@ import { useEffect, useState, useRef } from "react";
 import "./Header.css";
 
 const Header = (props) => {
-  const canvasRef = useRef(null);
-  const { context, setContext } = useState(null);
-
-  useEffect(() => {
-    // const canvas = canvasRef.current;
-    // const ctx = canvas.getContext("2d");
-    // ctx.canvas.width = 270;
-    // ctx.canvas.height = 60;
-    // new Pixels(canvas, 270, {
-    //   //colorScheme: "ethereum",
-    //   pixelSize: 5,
-    //   pattern: "logo",
-    // });
-  }, []);
+  useEffect(() => {}, []);
 
   return (
     <header className={`header ${props.dark && "header-dark"}`}>
@@ -30,16 +17,28 @@ const Header = (props) => {
             <a href="/pixels">Pixels</a>
           </div>
           <div className="nav-item">
-            <img
-              className="social-icon"
-              src={`twitter${props.dark ? "-dark" : ""}.png`}
-            />
+            <a
+              href="https://twitter.com/MatricaLabs"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="social-icon"
+                src={`twitter${props.dark ? "-dark" : ""}.png`}
+              />
+            </a>
           </div>
           <div className="nav-item">
-            <img
-              className="social-icon"
-              src={`discord${props.dark ? "-dark" : ""}.png`}
-            />
+            <a
+              href="https://discord.gg/MatricaLabs"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="social-icon"
+                src={`discord${props.dark ? "-dark" : ""}.png`}
+              />
+            </a>
           </div>
         </nav>
       </div>
