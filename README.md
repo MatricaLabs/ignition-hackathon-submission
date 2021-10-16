@@ -5,7 +5,7 @@ https://matricalabs.io
 
 ### `yarn install`
 
-Installs the dependencies.\
+Installs the dependencies.
 
 ### `yarn start`
 
